@@ -34,3 +34,9 @@ If everything works you should see output like this in your terminal:
     
 
 To run your own tests with Phantom-Jasmine just look at TestRunner.html and modify/copy the script tags accordingly.
+
+---------------------------------------------
+
+To run headless cucumber test
+
+	cucumber features/registration.feature

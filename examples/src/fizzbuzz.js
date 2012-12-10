@@ -14,6 +14,7 @@ FizzBuzz.prototype = {
 			return '0';
 
 		out = !(i % 3) ?  !(i % 5)? f+b : f : !(i % 5)? b : i;
+
 		return out.toString();
 
 		// if(number % 3 == 0 && number % 5 == 0 && number != 0)
