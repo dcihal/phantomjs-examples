@@ -5,7 +5,7 @@ describe("Test Stub", function() {
 
     	$('#friends').addFriendList();
     	
-    	jQuery.ajax.mostRecentCall.args[0].success('<ul><li>Arturo</li><li>Concetto</li></ul>');
-    	expect($('#friends li').length).toBe(2);
+    	jQuery.ajax.mostRecentCall.args[0].success('<ul><li>Arturo</li><li>Concetto</li><li>Another</li></ul>');
+    	expect($('#friends li').length).toBe(4);
 	});
 });
